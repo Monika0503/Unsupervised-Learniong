@@ -1,9 +1,12 @@
 # Unsupervised-Learniong
 TOPIC: Analysis is to find inherent clusters in sites (locations) and Plant Species
+
 OBJECTIVE: The objective of the analysis is to find relationships / inherent clusters in sites (locations) and/or plant species. The counts of various species at multiple quadrats at multiple locations are provided in various sheets in the excel file.
+
 Data Importing and understanding:
 Originally we are considering the data in the file named All sites All quadrats tree list final.xlsx which contains information of approx 682 plants species at different locations. The loactions present are:
 Malshej_Ghat,Naneghat,Bhimashankar,Malegaon_Budruk,Dahuli,Lonavala,Tailbaila, Mulshi,Tamhini_Ghat,Gunjavane_dam,Abhepuri,Mahabaleshwar.
+
 Data Preprocessing:
 1) The missing values in the data-There are some missing values in the data after importing.we can replace NA values by Zero value,this is because plant species count loaction wise is given.
 2) After that,we are joining totals of plants species of all the locations that gives us total variables equals to 12;
